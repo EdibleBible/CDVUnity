@@ -231,7 +231,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!135 &262071857
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -1193,10 +1193,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   detectionRadius: 5
-  numRays: 36
-  verticalAngles: []
-  teleportMarkerPrefab: {fileID: 262071856}
+  teleportMarker: {fileID: 262071856}
   teleportMargin: 1
+  layerMask:
+    serializedVersion: 2
+    m_Bits: 8
 --- !u!1 &1944470068
 GameObject:
   m_ObjectHideFlags: 0
